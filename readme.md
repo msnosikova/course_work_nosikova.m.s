@@ -7,7 +7,6 @@
 - показывает график с помощью "matplotlib"
 
 Как запустить?
-1. Установите зависимости (если нет)
-pip install matplotlib
-2. Запустите скрипт
-py course_work_nosikova.m.s.py
+1. Установите зависимости: `pip install matplotlib`
+2. Запустите скрипт: `py src/gc_profile/main.py -i examples/sequence.fasta -w 100`
+(Альтернатива: установите как пакет `py -m pip install -e .` → затем команда `gc-profile`)
