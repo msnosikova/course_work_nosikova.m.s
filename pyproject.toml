@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gc-profile-nosikova"
+version = "0.1.0"
+authors = [{name = "Nosikova M.S.", email = "masanosikova7@gmail.com"}]
+description = "Курсовая работа: Построение GC-профиля ДНК-последовательности"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.5.0",
+]
+
+[project.scripts]
+gc-profile = "gc_profile.main:main"
